@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jocksonart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+        }
+
+        .container{
+            /* max-width: 1600px !important; */
+        }
+
+        ul,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        span {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body class="bg__clr">
+    <!-- HEADER SECTION START -->
+    <header class="haeder__area">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="header__email">
+                            <div class="header__bagImg">
+                                <img src="asset/images/Bag.png" alt="bag">
+                            </div>
+                            <p>jacksonart@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="header__subscribe">
+                            <button class="subs__btn">Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-4">
+                        <div class="header__logo">
+                            <img src="asset/images/Logo 2 2.png" alt="headerLogo">
+                        </div>
+                    </div>
+                    <div id="navMenu" class="col-xl-10 col-md-8 nav__fixed">
+                        <div class="row h-100 position-relative">
+                            <i id="navClose" class="fa-solid fa-xmark close"></i>
+                            <div class="col-xl-7 col-md-12">
+                                <div class="header__search">
+                                    <div class="header__searchBox">
+                                        <div id="headerList" class="header__dropList">
+                                            <span>All Products</span>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div id="hdrop" class="h__dropList2">
+                                                <ul>
+                                                    <li><a href="#">Bag</a></li>
+                                                    <li><a href="#">Pant</a></li>
+                                                    <li><a href="#">Headphon</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="header__inputBox">
+                                            <input type="text" name="search" id="search"
+                                                placeholder="Enter product name">
+                                            <div class="header__searchIcon">
+                                                <img src="asset/images/Search.png" alt="search">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-md-12">
+                                <div class="header__midNav">
+                                    <ul>
+                                        <li><a href="#">Auctions</a></li>
+                                        <li><a href="#">Buy Now</a></li>
+                                        <li><a href="#">Private Sells</a></li>
+                                        <li><a href="#">Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 d-block d-md-none">
+                        <div class="menu">
+                            <div id="navBtn" class="hamburger__menu">
+                                <span class="line"></span>
+                                <span class="line2"></span>
+                                <span class="line3"></span>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header__navBar">
+                            <ul>
+                                <li><a href="#">Clothes</a></li>
+                                <li><a href="#">Jwelleries</a></li>
+                                <li><a href="#">Art</a></li>
+                                <li><a href="#">Music</a></li>
+                                <li><a href="#">Trading Cards</a></li>
+                                <li><a href="#">Clothes</a></li>
+                                <li><a href="#">Fashions</a></li>
+                                <li><a href="#">Appliances</a></li>
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Electronics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+    <main>
+        <!-- HERO BANNER SECTION START -->
+        <section class="heroBnnr__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="heroBnnr__content">
+                            <h1>Discover Happiness with us.</h1>
+                            <p>Products that takes no time to fulfill your requirement. Quality, we are concerned of.
+                                Enjoy, happy shopping!</p>
+                            <button class="hero__btn">Browse Products</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="heroBnnr__img">
+                            <div class="swiper mySwiper hero__height">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                      <div class="hero__imgSlide">
+                                          <img src="asset/images/image 1.png" alt="heroSlider">
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                      <div class="hero__imgSlide">
+                                          <img src="asset/images/presonus-hd10bt-front_thumbnail.png" alt="heroSlider">
+                                      </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                      <div class="hero__imgSlide">
+                                          <img src="asset/images/apple_iphone_11_black-full-product-front-600-9own3o.png" alt="heroSlider">
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-pagination hero__pagination"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HERO BANNER SECTION END -->
+
+        <!-- CARD SECTION START -->
+        <section class="card__area">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Upcoming Auctions</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/Rectangle 10.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/Rectangle 10 (1).png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Luxurious House: Las Vegas</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/Rectangle 10 (2).png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Diamond Iphone: Just Perfect</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/Rectangle 10 (3).png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Audi Q7: Bold</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Auctions</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/bluc.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/houtr.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Luxurious House: Las Vegas</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/shoe.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Diamond Iphone: Just Perfect</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/laptop.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Audi Q7: Bold</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Perfumes</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/1.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/2.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Luxurious House: Las Vegas</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/3.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Diamond Iphone: Just Perfect</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img">
+                                <img src="asset/images/card/4.png" alt="card">
+                            </div>
+                            <div class="card__content">
+                                <h5>Audi Q7: Bold</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                                <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                                <button class="card__btn">Bid Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Best Choices</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img card__bg" style="background-image: url('asset/images/card/watch3.png');">
+                                <h6>Boomberg: Luxury on your hand</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt augue aliquam gravida. Sem nisi aliquam posuere turpis. Ipsum mauris, eleifend proin sed tristique lectus facilisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 px-2">
+                        <div class="row h-100 part__center">
+                            <div class="col-lg-12 col-6 mb-lg-3 mb-0">
+                                <div class="card__box h-100">
+                                    <div class="card__img h-100 card__bg2" style="background-image: url('asset/images/card/watch2.png');">
+                                        <h6>Rolex: Luxury on your hand</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-6">
+                                <div class="card__box h-100">
+                                    <div class="card__img h-100 card__bg3" style="background-image: url('asset/images/card/watch.png');">
+                                        <h6>Rolex: Luxury on your hand</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CARD SECTION END -->
+
+        <!-- WATCH SECTION START -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card__title">
+                        <h2>Deal of month</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="dealOfMonth__area">
+            <div class="container">
+                <div class="row">
+                     <div class="col-lg-3 col-sm-6 col-12">
+                         <div class="product__box">
+                             <div class="product__img">
+                                 <img src="asset/images/card/image 2.png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12">
+                         <div class="product__box">
+                             <div class="product__img">
+                                 <img src="asset/images/card/image 2 (1).png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12">
+                         <div class="product__box">
+                             <div class="product__img">
+                                 <img src="asset/images/card/image 2 (2).png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>ROLEX</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12">
+                         <div class="product__box">
+                             <div class="product__img">
+                                 <img src="asset/images/card/image 2 (3).png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>ROLEX</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- WATCH SECTION END -->
+
+        <!-- SALE SECTION START -->
+        <section class="sale__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Best Choices</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12 px-2 mb-lg-0 mb-4">
+                        <div class="card__box">
+                            <div class="card__img card__bg" style="background-image: url('asset/images/card/clr3.png');">
+                                <h6>Boomberg: Luxury on your hand</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt augue aliquam gravida. Sem nisi aliquam posuere turpis. Ipsum mauris, eleifend proin sed tristique lectus facilisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 px-2">
+                        <div class="row h-100 part__center">
+                            <div class="col-lg-12 col-6 mb-lg-3 mb-0">
+                                <div class="card__box h-100">
+                                    <div class="card__img h-100 card__bg2" style="background-image: url('asset/images/card/clr2.png');">
+                                        <h6>Rolex: Luxury on your hand</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-6">
+                                <div class="card__box h-100">
+                                    <div class="card__img h-100 card__bg3" style="background-image: url('asset/images/card/clr.png');">
+                                        <h6>Rolex: Luxury on your hand</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tincidunt </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SALE SECTION END -->
+
+        <!-- GIFT SECTION START -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card__title">
+                        <h2>Gifts for all</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="dealOfMonth__area gift__area">
+            <div class="container">
+                <div class="row">
+                     <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                         <div class="product__box">
+                             <div class="product__img mb-3">
+                                 <img class="w-100" src="asset/images/card/dardlaptop.png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                         <div class="product__box">
+                             <div class="product__img mb-3">
+                                 <img class="w-100" src="asset/images/card/wallimg.png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                         <div class="product__box">
+                             <div class="product__img mb-3">
+                                 <img class="w-100" src="asset/images/card/gift.png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4">
+                         <div class="product__box">
+                             <div class="product__img mb-3">
+                                 <img class="w-100" src="asset/images/card/img.png" alt="pro_img">
+                             </div>
+                             <div class="product__content text-center text-white">
+                                 <h6>PATEK PHILLIPE</h6>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae im pharetra viverra. Odio rutruu.</p>
+                                 <span>55,000 USD</span>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- GIFT SECTION END -->
+
+        <!-- SERVICE SECTION START -->
+        <section class="service__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__img">
+                           <img src="asset/images/card/service.png" alt="serviceImg"> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__content">
+                            <h2>Classic Vibes</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra odio ullamcorper augue varius porta arcu. Risus, magna luctus diam a. Et nisi, ridiculus eu fringilla lacus, nunc. Et nunc morbi ac interdum facilisi ut sed. Faucibus ac dignissim in vitae nunc neque nulla a. Mauris duis nascetur cras fusce scelerisque  arcu odio amet, ornare aenean diam. Quis cursus velit tortor purus lacus nec. </p>
+                            <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                            <button class="card__btn">Bid Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__img">
+                           <img src="asset/images/card/novel.png" alt="serviceImg"> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__content">
+                            <h2>Classic Vibes</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra odio ullamcorper augue varius porta arcu. Risus, magna luctus diam a. Et nisi, ridiculus eu fringilla lacus, nunc. Et nunc morbi ac interdum facilisi ut sed. Faucibus ac dignissim in vitae nunc neque nulla a. Mauris duis nascetur cras fusce scelerisque  arcu odio amet, ornare aenean diam. Quis cursus velit tortor purus lacus nec. </p>
+                            <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                            <button class="card__btn">Bid Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__img">
+                           <img src="asset/images/card/book.png" alt="serviceImg"> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 mb-5">
+                        <div class="service__content">
+                            <h2>Classic Vibes</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra odio ullamcorper augue varius porta arcu. Risus, magna luctus diam a. Et nisi, ridiculus eu fringilla lacus, nunc. Et nunc morbi ac interdum facilisi ut sed. Faucibus ac dignissim in vitae nunc neque nulla a. Mauris duis nascetur cras fusce scelerisque  arcu odio amet, ornare aenean diam. Quis cursus velit tortor purus lacus nec. </p>
+                            <span>3-14 December 2021 | 10:00 AM EST | New York</span>
+                            <button class="card__btn">Bid Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICE SECTION END -->
+
+        <!-- ART SECTION START -->
+        <section class="art__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-12 mb-lg-0 mb-5">
+                        <div class="heroBnnr__content art__content">
+                            <div class="art__box">
+                                <h1>Browse Art for Sale by Fertured Collections</h1>
+                            <p>See What's to Collectors all over the world</p>
+                            <button class="hero__btn">Browse Products</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12 d-flex align-items-center">
+                        <div class="swiper art__gallery row">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-9 col-8 px-0 swiper-slide">
+                                    <div class="art__img">
+                                        <img src="asset/images/card/Rectangle 50.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-8 px-0 swiper-slide">
+                                    <div class="art__img">
+                                        <img src="asset/images/card/Rectangle 51.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-8 px-0 swiper-slide">
+                                    <div class="art__img">
+                                        <img src="asset/images/card/Rectangle 52.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ART SECTION END -->
+
+        <!-- FEATURE SECTION START -->
+        <section class="feature__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card__title">
+                            <h2>Featured Stories</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-lg-0 mb-4 px-2">
+                        <div class="feature__box">
+                            <div class="feature__img">
+                                <img src="asset/images/card/Rectangle 53.png" alt="feature__img">
+                            </div>
+                            <div class="feature__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-lg-0 mb-4 px-2">
+                        <div class="feature__box">
+                            <div class="feature__img">
+                                <img src="asset/images/card/Rectangle 53 (1).png" alt="feature__img">
+                            </div>
+                            <div class="feature__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-lg-0 mb-4 px-2">
+                        <div class="feature__box">
+                            <div class="feature__img">
+                                <img src="asset/images/card/Rectangle 53 (2).png" alt="feature__img">
+                            </div>
+                            <div class="feature__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-lg-0 mb-4 px-2">
+                        <div class="feature__box">
+                            <div class="feature__img">
+                                <img src="asset/images/card/Rectangle 53 (3).png" alt="feature__img">
+                            </div>
+                            <div class="feature__content">
+                                <h5>Rolex: Mind Your Time</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel commodo l. Egestas ultricies augue urna nibh egestas purus hac ac pellentesque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FEATURE SECTION END -->
+
+        <!-- NEWSLETTER SECTION START -->
+        <section class="newsletter__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="newsletter">
+                            <div class="row">
+                                <div class="col-lg-7 col-12 mb-lg-0 mb-4 p-0">
+                                    <div class="newsletter__content">
+                                        <h4>Newsletter</h4>
+                                        <p>Receive a 10% Discount code via email when you sign up for our Store offers & updates</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12 d-flex align-items-center p-0">
+                                    <div class="newsletter__input">
+                                        <input type="text" name="address" id="address" placeholder="Email Address">
+                                        <div class="newsletter__icon">
+                                            <img src="asset/images/card/Fill-1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER SECTION END -->
+    </main>
+    <!-- FOOTER SECTION START -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-0 col-4 offset-4 mb-lg-0 mb-5">
+                    <div class="footer__logo mb-4">
+                        <img src="asset/images/Logo 2 2.png" alt="logo">
+                    </div>
+                    <div class="footer__social">
+                        <div class="f__socialImg">
+                            <img src="asset/images/Group.png" alt="facebook">
+                        </div>
+                        <div class="f__socialImg">
+                            <img src="asset/images/Vector.png" alt="facebook">
+                        </div>
+                        <div class="f__socialImg">
+                            <img src="asset/images/Vector (1).png" alt="facebook">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col mb-5 mb-md-0 d-flex justify-content-lg-end justify-content-start">
+                            <div class="footer__list">
+                                <h4>Categories</h4>
+                                <ul>
+                                    <li><a href="#">Drawing</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Printmaking</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Sculpture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-md-0 d-flex justify-content-lg-end justify-content-start">
+                            <div class="footer__list">
+                                <h4>Information</h4>
+                                <ul>
+                                    <li><a href="#">Drawing</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Printmaking</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Sculpture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-md-0 d-flex justify-content-lg-end justify-content-start">
+                            <div class="footer__list">
+                                <h4>My account</h4>
+                                <ul>
+                                    <li><a href="#">Drawing</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Printmaking</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Sculpture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-md-0 d-flex justify-content-lg-end justify-content-start">
+                            <div class="footer__list">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Drawing</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Printmaking</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Sculpture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-md-0 d-flex justify-content-lg-end justify-content-start">
+                            <div class="footer__list">
+                                <h4>Follow Us</h4>
+                                <ul>
+                                    <li><a href="#">Drawing</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Printmaking</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Sculpture</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer__link">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                    <div class="footer__copyright text-center">
+                        <p> @Copyright 2012-2021 Jacksonart.com · All Rights Reserved · All prices in USD</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="footer__payment">
+                        <p>Accepted payment methods</p>
+                        <div class="footer__paymentImg">
+                            <img src="asset/images/copyright-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER SECTION END -->
+
+    <!--============jQuery and Bootstrap js =======-->
+    <script src="asset/js/jquery-3.5.1.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <!--==========Font awesome js==================-->
+    <script src="asset/js/all.min.js"></script>
+    <script src="asset/js/fontawesome.min.js"></script>
+    <!--==========Toastr js==================-->
+    <!--    <script src="asset/js/toastr.min.js"></script>-->
+    <!--==========owl carousel js==================-->
+    <script src="asset/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=====Custom js======-->
+    <script src="asset/js/custom.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay:true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+      var swiper = new Swiper(".art__gallery", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch:0,
+          depth:100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        loop:true,
+        autoplay: {
+          delay: 2500,
+          speed: 5000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+</body>
